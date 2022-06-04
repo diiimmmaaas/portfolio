@@ -1,0 +1,17 @@
+.footer {
+    background-color: #313335;
+    padding: 40px 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container span {
+    display: inline-block;
+    padding-top: 8px;
+    color: #fff;
+    font-size: 16px;
+}

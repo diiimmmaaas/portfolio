@@ -1,0 +1,46 @@
+.contactInfoBlock {
+    margin-left: 50px;
+    border-bottom: 1px solid rgba(214, 216, 227, 0.4);
+    padding-bottom: 25px;
+    margin-bottom: 32px;
+    display: flex;
+}
+
+.iconBlock {
+    margin: 0 20px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Montserrat", serif;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.content span {
+    font-size: 16px;
+    color: #d0d0d0;
+}
+
+@media screen and (max-width: 991px) {
+    .contactInfoBlock {
+        margin-left: 0;
+        margin-bottom: 12px;
+    }
+
+}
