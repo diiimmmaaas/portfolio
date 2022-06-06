@@ -1,0 +1,51 @@
+.skill {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 38px;
+    .icon {
+        width: 100%;
+        background-color: rgb(59, 59, 59);
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        position: relative;
+        .progress {
+            background-color: rgb(255, 114, 76);
+            height: 5px;
+            border-radius: 5px;
+            width: 80%;
+        }
+    }
+    .description {
+        display: flex;
+        justify-content: space-between;
+        span {
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.5;
+        }
+        .percent {
+            font-size: 16px;
+            color: #fff;
+            margin-top: 13px;
+            clear: both;
+            font-weight: 700;
+        }
+    }
+    @media screen and (max-width: 990px) {
+            width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+

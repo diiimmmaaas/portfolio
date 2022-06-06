@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SocialNetworks.module.css'
+import styles from './SocialNetworks.module.scss'
 
 export const SocialNetworks = () => {
     return (

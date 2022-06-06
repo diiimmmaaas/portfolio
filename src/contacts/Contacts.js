@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Contacts.module.css'
-import stylesBtn from '../common/styles/btn.module.css'
-import styleContainer from '../common/styles/Container.module.css'
+import styles from './Contacts.module.scss'
+import stylesBtn from '../common/styles/btn.module.scss'
+import styleContainer from '../common/styles/Container.module.scss'
 import {Caption} from '../caption/Caption';
 import {ContactInfo} from './ContactInfo/ConactInfo';
 

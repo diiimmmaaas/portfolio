@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Caption.module.css'
+import styles from './Caption.module.scss'
 
 export const Caption = (props) => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './Project.module.css'
-import stylesBtn from '../../common/styles/btn.module.css'
+import styles from './Project.module.scss'
+import stylesBtn from '../../common/styles/btn.module.scss'
 
 export const Project = (props) => {
     return (

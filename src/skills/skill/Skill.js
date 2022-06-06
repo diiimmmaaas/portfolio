@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Skill.module.css'
+import styles from './Skill.module.scss'
 
 export const Skill = (props) => {
     return (
@@ -11,7 +11,6 @@ export const Skill = (props) => {
                 <span>{props.title}</span>
                 <div className={styles.percent}>{props.percent}</div>
             </div>
-
         </div>
     );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './RemoteWork.module.css'
-import styleBtn from '../common/styles/btn.module.css'
-import styleContainer from '../common/styles/Container.module.css'
+import styles from './RemoteWork.module.scss'
+import styleBtn from '../common/styles/btn.module.scss'
+import styleContainer from '../common/styles/Container.module.scss'
 import {Caption} from '../caption/Caption';
 
-export const RemoteWork = (props) => {
+export const RemoteWork = () => {
     return (
         <div className={styles.remoteWorkBlock}>
             <div className={`${styleContainer.container} ${styles.container}`}>

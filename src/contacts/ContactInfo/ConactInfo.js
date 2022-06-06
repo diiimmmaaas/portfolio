@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ContactInfo.module.css'
+import styles from './ContactInfo.module.scss'
 
 
 export const ContactInfo = (props) => {
