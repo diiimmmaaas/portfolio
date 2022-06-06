@@ -6,16 +6,16 @@ export const SocialNetworks = () => {
         <div className={styles.socialNetworks}>
             <ul className={styles.socialNetworkIcons}>
                 <li>
-                    <a className={styles.facebook} href="#">F</a>
+                    <a className={styles.facebook} href='#'>F</a>
                 </li>
                 <li>
-                    <a className={styles.instagram} href="#">I</a>
+                    <a className={styles.instagram} href='#'>I</a>
                 </li>
                 <li>
-                    <a className={styles.linkedin} href="#">Ln</a>
+                    <a className={styles.linkedin} href='#'>Ln</a>
                 </li>
                 <li>
-                    <a className={styles.github} href="#">Gh</a>
+                    <a className={styles.github} href='#'>Gh</a>
                 </li>
             </ul>
         </div>

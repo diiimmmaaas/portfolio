@@ -1,23 +1,29 @@
 .project {
     width: 45%;
     text-align: center;
+    padding: 20px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
     flex-wrap: wrap;
 }
 
+
 .projectImageContainer {
     width: 100%;
-    height: 120px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-position: center;
+    background-size: cover;
 }
 
 .description {
@@ -26,6 +32,10 @@
 
 .description h3 {
     color: white;
+}
+
+.btn {
+
 }
 
 @media screen and (max-width: 990px) {

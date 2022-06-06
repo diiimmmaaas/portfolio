@@ -1,5 +1,4 @@
 .captionBlock {
-
     margin-bottom: 52px;
     text-align: center;
 }
@@ -12,7 +11,7 @@
     margin: 0 auto;
 }
 
-.captionBlock span {
+.subtitle {
     font-size: 16px;
     font-weight: 600;
     color: #d1d1d1;
@@ -22,7 +21,7 @@
     margin-bottom: 0;
 }
 
-.captionBlock h2 {
+.title {
     margin-top: 0;
     margin-bottom: 23px;
     font-size: 32px;
@@ -31,7 +30,7 @@
     color: #fff;
 }
 
-.captionBlock p {
+.description {
     display: block;
     margin: 0 auto;
     color: rgba(208, 208, 208, 0.9);

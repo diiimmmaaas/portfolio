@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './Contacts.module.css'
 import stylesBtn from '../common/styles/btn.module.css'
 import styleContainer from '../common/styles/Container.module.css'
-import {Caption} from "../caption/Caption";
-import {ContactInfo} from "./ContactInfo/ConactInfo";
+import {Caption} from '../caption/Caption';
+import {ContactInfo} from './ContactInfo/ConactInfo';
 
-export const Contacts = (props) => {
+export const Contacts = () => {
     return (
         <div className={styles.contactsBlock}>
             <div className={`${styleContainer.container} ${styles.container}`}>
@@ -14,32 +14,30 @@ export const Contacts = (props) => {
                          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo orci odio, ut tor felisdapibus sed. Phasellus vitae ullamcorper purus.'}
                 />
                 <div className={styles.contactsContent}>
-                    <div className={styles.formTitle}>
+                    <div className={styles.title}>
                         <h3>Say Something</h3>
                     </div>
                     <div className={styles.allContent}>
                         <div className={styles.leftContent}>
                             <div className={styles.form}>
-                                <form action="">
-                                    <div className={styles.inputForm}>
-                                        <input type="text"/>
-                                    </div>
-                                    <input type="text"/>
+                                <form action=''>
+                                    <input type='text'/>
+                                    <input type='text'/>
                                     <textarea></textarea>
                                 </form>
-                                <input type="submit"
-                                       value="send message"
+                                <input type='submit'
+                                       value='send message'
                                        className={stylesBtn.btn}
                                 />
                             </div>
                         </div>
                         <div className={styles.rightContent}>
                             <ContactInfo title={'Location'}
-                                         description={'1234,Parkstreet Avenue, America.'}/>
+                                         description={'231300, Lida, Belarus.'}/>
                             <ContactInfo title={'Phone number'}
-                                         description={'0123 456789'}/>
+                                         description={'8(029) 7618499'}/>
                             <ContactInfo title={'Email Address'}
-                                         description={'Info@MarlonSimon.com'}/>
+                                         description={'Dm.sokolov1994@gmail.com'}/>
                         </div>
                     </div>
                 </div>

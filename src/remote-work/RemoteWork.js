@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './RemoteWork.module.css'
 import styleBtn from '../common/styles/btn.module.css'
 import styleContainer from '../common/styles/Container.module.css'
-import {Caption} from "../caption/Caption";
+import {Caption} from '../caption/Caption';
 
 export const RemoteWork = (props) => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css'
 import styleContainer from '../common/styles/Container.module.css'
-import {SocialNetworks} from "../socialNetworks/SocialNetworks";
+import {SocialNetworks} from '../social-networks/SocialNetworks';
 
 
 export const Main = () => {
