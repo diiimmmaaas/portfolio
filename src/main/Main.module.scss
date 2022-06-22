@@ -1,7 +1,13 @@
 .mainBlock {
   height: 100vh;
   background-color: #202020;
-
+  .particles {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
   .greeting {
     flex: 0 0 50%;
     max-width: 50%;
@@ -23,9 +29,8 @@
         color: #d1d1d1;
         line-height: 29px;
         display: block;
-        background-color: #202020;
         position: relative;
-        animation: text 3s 1;
+        animation: text 5s 1;
         @media screen and (max-width: 876px) {
           font-size: 26px;
         }
@@ -37,7 +42,7 @@
         color: #fff;
         margin-top: 0;
         margin-bottom: 0.5rem;
-        animation: name 3s 1;
+        animation: name 5s 1;
         @media screen and (max-width: 876px) {
           font-size: 66px;
         }
@@ -61,6 +66,7 @@
     height: 400px;
     background-size: cover;
     background-image: url("../assets/image/avatar.jpg");
+    position: relative;
     @media screen and (max-width: 876px) {
       display: none;
     }
