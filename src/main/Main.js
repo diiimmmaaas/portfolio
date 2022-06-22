@@ -6,11 +6,12 @@ import Particles from "react-tsparticles";
 import {particlesOptions} from "../common/particleOption/particleOption";
 import Slide from 'react-reveal/Slide';
 import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt';
 
 
 export const Main = () => {
     return (
-        <div className={styles.mainBlock}>
+        <div id='main' className={styles.mainBlock}>
             <Particles className={styles.particles} options={particlesOptions}/>
             <div className={styleContainer.container}>
                 <div className={styles.greeting}>
@@ -25,7 +26,10 @@ export const Main = () => {
                     <SocialNetworks/>
                 </div>
                 <Slide right>
-                    <div className={styles.photo}></div>
+                    <Tilt className="Tilt" options={{ max : 15 }} >
+                        <div className={styles.photo}></div>
+                    </Tilt>
+
                 </Slide>
             </div>
         </div>

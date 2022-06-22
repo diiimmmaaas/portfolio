@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 export const Contacts = () => {
     return (
-        <div className={styles.contactsBlock}>
+        <div id='contacts' className={styles.contactsBlock}>
             <div className={`${styleContainer.container} ${styles.container}`}>
                 <Caption subtitle={'Contact'}
                          title={'Get in Touch'}
