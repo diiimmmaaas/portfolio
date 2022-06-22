@@ -4,6 +4,7 @@ import styleContainer from '../common/styles/Container.module.scss'
 import {SocialNetworks} from '../social-networks/SocialNetworks';
 import Particles from "react-tsparticles";
 import {particlesOptions} from "../common/particleOption/particleOption";
+import Slide from 'react-reveal/Slide';
 
 
 
@@ -21,9 +22,9 @@ export const Main = () => {
                     </div>
                     <SocialNetworks/>
                 </div>
-                <div className={styles.photo}>
-
-                </div>
+                <Slide right>
+                    <div className={styles.photo}></div>
+                </Slide>
             </div>
         </div>
     );
