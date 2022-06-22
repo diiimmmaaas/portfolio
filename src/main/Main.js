@@ -5,8 +5,7 @@ import {SocialNetworks} from '../social-networks/SocialNetworks';
 import Particles from "react-tsparticles";
 import {particlesOptions} from "../common/particleOption/particleOption";
 import Slide from 'react-reveal/Slide';
-
-
+import ReactTypingEffect from 'react-typing-effect';
 
 
 export const Main = () => {
@@ -18,7 +17,10 @@ export const Main = () => {
                     <div className={styles.text}>
                         <span>Hello, I'm</span>
                         <h1>Dmitry Sokolov</h1>
-                        <h4>Frontend Developer</h4>
+                        <h4><ReactTypingEffect speed={300}
+                                               typingDelay={1500}
+                                               text="Frontend Developer"
+                        /></h4>
                     </div>
                     <SocialNetworks/>
                 </div>

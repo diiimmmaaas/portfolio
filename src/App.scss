@@ -1,0 +1,14 @@
+.App {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    > div {
+        &:nth-child(n) {
+            background-color: #2b2b2b;
+        }
+        &:nth-child(2n) {
+            background-color: #202020;
+        }
+    }
+}
+
+
