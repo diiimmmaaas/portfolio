@@ -1,9 +1,9 @@
 export const particlesOptions = {
     backgroundMode: {
         enable: false,
-        zIndex: -1
+        zIndex: 0
     },
-    fpsLimit: 40,
+    fpsLimit: 144,
     interactivity: {
         detectsOn: "canvas",
         events: {
