@@ -16,6 +16,12 @@
             flex-direction: column;
             width: 90%;
             justify-content: space-between;
+            @media screen and (max-width: 640px) {
+                padding: 20px 20px;
+            }
+            @media screen and (max-width: 500px) {
+                width: 100%;
+            }
             .title {
                 h3 {
                     font-size: 28px;

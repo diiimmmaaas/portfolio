@@ -21,14 +21,13 @@ export const Contacts = () => {
                         <div className={styles.leftContent}>
                             <div className={styles.form}>
                                 <form action=''>
-                                    <input type='text'/>
-                                    <input type='text'/>
-                                    <textarea></textarea>
+                                    <input type='text' value='name'/>
+                                    <input type='email' value='e-mail'/>
+                                    <textarea value='Message'></textarea>
+                                    <button type='submit' className={`${stylesBtn.btn} ${styles.btn}`}>
+                                        send message
+                                    </button>
                                 </form>
-                                <input type='submit'
-                                       value='send message'
-                                       className={stylesBtn.btn}
-                                />
                             </div>
                         </div>
                         <div className={styles.rightContent}>

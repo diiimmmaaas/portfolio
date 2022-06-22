@@ -1,56 +1,101 @@
 .mainBlock {
-    height: 100vh;
-    background-color: #202020;
-    .greeting {
-        flex: 0 0 50%;
-        max-width: 50%;
-        @media screen and (max-width: 876px) {
-            flex: 100%;
-            max-width: 100%;
-            text-align: center;
-        }
-        @media screen and (max-width: 375px) {
-            text-align: center;
-        }
-        .text {
-            margin-bottom: 33px;
-            span {
-                font-size: 24px;
-                font-weight: 600;
-                color: #d1d1d1;
-                line-height: 29px;
-                @media screen and (max-width: 876px) {
-                    font-size: 26px;
-                }
-            }
-            h1 {
-                font-size: 60px;
-                line-height: 76px;
-                color: #fff;
-                margin-top: 0;
-                margin-bottom: 0.5rem;
-                @media screen and (max-width: 876px) {
-                  font-size: 66px;
-                }
-            }
-            h4 {
-                font-size: 28px;
-                font-weight: 600;
-                color: #d1d1d1;
-                margin-top: 0;
-                margin-bottom: 0.5rem;
-                @media screen and (max-width: 876px) {
-                  font-size: 28px;
-                }
-            }
-        }
+  height: 100vh;
+  background-color: #202020;
+
+  .greeting {
+    flex: 0 0 50%;
+    max-width: 50%;
+    @media screen and (max-width: 876px) {
+      flex: 100%;
+      max-width: 100%;
+      text-align: center;
     }
-    .photo {
-        width: 300px;
-        height: 400px;
-        background-color: #b9afaf;
-        @media screen and (max-width: 876px) {
-                display: none;
-        }
+    @media screen and (max-width: 375px) {
+      text-align: center;
     }
+
+    .text {
+      margin-bottom: 33px;
+
+      span {
+        font-size: 25px;
+        font-weight: 600;
+        color: #d1d1d1;
+        line-height: 29px;
+        display: block;
+        background-color: #202020;
+        position: relative;
+        animation: text 3s 1;
+        @media screen and (max-width: 876px) {
+          font-size: 26px;
+        }
+      }
+
+      h1 {
+        font-size: 60px;
+        line-height: 76px;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        animation: name 3s 1;
+        @media screen and (max-width: 876px) {
+          font-size: 66px;
+        }
+      }
+
+      h4 {
+        font-size: 28px;
+        font-weight: 600;
+        color: #d1d1d1;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        @media screen and (max-width: 876px) {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-image: url("../assets/image/avatar.jpg");
+    @media screen and (max-width: 876px) {
+      display: none;
+    }
+  }
 }
+
+@keyframes text {
+  0% {
+    color: #202020;
+    font-size: 30px;
+  }
+  30% {
+    letter-spacing: 10px;
+    font-size: 35px;
+  }
+  85% {
+    letter-spacing: 0;
+    font-size: 24px;
+  }
+}
+
+@keyframes name {
+  0% {
+    color: #202020;
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.3
+  }
+  50% {
+    opacity: 0.5
+  }
+  80% {
+    opacity: 0.8;
+  }
+}
+
+

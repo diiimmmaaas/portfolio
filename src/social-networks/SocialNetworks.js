@@ -28,13 +28,13 @@ export const SocialNetworks = () => {
                     <a style={facebook} className={styles.facebook} href='#'></a>
                 </li>
                 <li>
-                    <a style={instagram} className={styles.instagram} href='#'></a>
+                    <a style={instagram} className={styles.instagram} href='https://www.instagram.com/diiimmmaaas/'></a>
                 </li>
                 <li>
-                    <a style={linkedin} className={styles.linkedin} href='#'></a>
+                    <a style={linkedin} className={styles.linkedin} href='https://www.linkedin.com/in/dmitry-sokolov-8a6a9918a/'></a>
                 </li>
                 <li>
-                    <a style={github} className={styles.github} href='#'>git status</a>
+                    <a style={github} className={styles.github} href='https://github.com/diiimmmaaas'></a>
                 </li>
             </ul>
         </div>

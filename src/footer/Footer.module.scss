@@ -4,11 +4,17 @@
     .container {
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width: 670px) {
+            flex-direction: column;
+        }
         span {
             display: inline-block;
             padding-top: 8px;
             color: #fff;
             font-size: 16px;
+            @media screen and (max-width: 670px) {
+                margin: 10px 0;
+            }
         }
     }
 }

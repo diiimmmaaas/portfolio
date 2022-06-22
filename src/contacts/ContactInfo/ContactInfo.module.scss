@@ -8,8 +8,15 @@
         margin-left: 0;
         margin-bottom: 12px;
     }
+    @media screen and (max-width: 500px) {
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+    }
     .iconBlock {
         margin: 0 20px;
+        @media screen and (max-width: 414px) {
+            display: none;
+        }
         .icon{
             width: 30px;
             height: 30px;
@@ -27,10 +34,16 @@
             font-family: "Montserrat", serif;
             margin-bottom: 0.5rem;
             margin-top: 0;
+            @media screen and (max-width: 500px) {
+                font-size: 14px;
+            }
         }
         span {
             font-size: 16px;
             color: #d0d0d0;
+            @media screen and (max-width: 500px) {
+                font-size: 14px;
+            }
         }
     }
 }

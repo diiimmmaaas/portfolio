@@ -15,10 +15,12 @@ export const Skills = () => {
                 <div className={styles.skills}>
                     <Skill title={'HTML'} percent={'90%'}/>
                     <Skill title={'JS'} percent={'90%'}/>
-                    <Skill title={'CSS'} percent={'80%'}/>
+                    <Skill title={'CSS/SASS'} percent={'80%'}/>
                     <Skill title={'REACT'} percent={'95%'}/>
                     <Skill title={'Redux'} percent={'95%'}/>
                     <Skill title={'Redux Toolkit'} percent={'85%'}/>
+                    <Skill title={'GIT'} percent={'90%'}/>
+                    <Skill title={'TypeScript'} percent={'90%'}/>
                 </div>
             </div>
         </div>

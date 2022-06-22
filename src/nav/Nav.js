@@ -3,11 +3,11 @@ import styles from './Nav.module.scss'
 
 export const Nav = () => {
     return (
-        <div className={styles.nav}>
+        <nav className={styles.nav}>
             <a href=''>Home</a>
             <a href=''>Skills</a>
             <a href=''>Projects</a>
             <a href=''>Contact</a>
-        </div>
+        </nav>
     );
 }

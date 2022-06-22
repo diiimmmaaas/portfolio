@@ -5,11 +5,11 @@ import {SocialNetworks} from '../social-networks/SocialNetworks';
 
 export const Footer = () => {
     return (
-        <div className={styles.footer}>
+        <footer className={styles.footer}>
             <div className={`${styleContainer.container} ${styles.container}`}>
                 <span>Copyright © All rights reserved.</span>
                 <SocialNetworks/>
             </div>
-        </div>
+        </footer>
     );
 }
