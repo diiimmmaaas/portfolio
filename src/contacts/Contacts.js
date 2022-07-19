@@ -6,6 +6,7 @@ import {Caption} from "../caption/Caption";
 import {ContactInfo} from "./ContactInfo/ConactInfo";
 import Fade from "react-reveal/Fade";
 import {Formik} from "formik";
+import axios from "axios";
 
 export const Contacts = () => {
 
@@ -51,8 +52,16 @@ export const Contacts = () => {
                                         }}
                                         onSubmit={(values, {setSubmitting}) => {
                                             setTimeout(() => {
-                                                alert(JSON.stringify(values, null, 2));
-                                                setSubmitting(false);
+                                                let {name, email, text} = values
+
+                                                axios.post( "http://localhost:3010/sendMessage", {
+                                                    email,
+                                                    name,
+                                                    text
+                                                } )
+                                                    .then( () => {
+                                                        alert("Your message has been send")
+                                                    } )
                                             }, 400);
                                         }}
                                     >
