@@ -53,7 +53,7 @@ export const Contacts = () => {
                                         onSubmit={(values, {setSubmitting}) => {
                                             setTimeout(() => {
 
-                                                axios.post( "http://localhost:3010/sendMessage", values )
+                                                axios.post( "https://gmail-smtp-nodejs-server-v1.herokuapp.com/sendMessage", values )
                                                     .then( () => {
                                                         alert("Your message has been send")
                                                     } )
