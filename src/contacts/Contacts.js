@@ -52,13 +52,8 @@ export const Contacts = () => {
                                         }}
                                         onSubmit={(values, {setSubmitting}) => {
                                             setTimeout(() => {
-                                                let {name, email, text} = values
 
-                                                axios.post( "http://localhost:3010/sendMessage", {
-                                                    email,
-                                                    name,
-                                                    text
-                                                } )
+                                                axios.post( "http://localhost:3010/sendMessage", values )
                                                     .then( () => {
                                                         alert("Your message has been send")
                                                     } )
