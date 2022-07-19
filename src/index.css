@@ -58,7 +58,9 @@ p {
   hyphens: auto; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #ffffff;
+}
 
 a,
 a:hover,

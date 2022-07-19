@@ -25,7 +25,7 @@ export const SocialNetworks = () => {
         <div className={styles.socialNetworks}>
             <ul className={styles.socialNetworkIcons}>
                 <li>
-                    <a style={facebook} className={styles.facebook} href='#'></a>
+                    <a style={facebook} className={styles.facebook} href='https://www.facebook.com/profile.php?id=100082413165928'></a>
                 </li>
                 <li>
                     <a style={instagram} className={styles.instagram} href='https://www.instagram.com/diiimmmaaas/'></a>

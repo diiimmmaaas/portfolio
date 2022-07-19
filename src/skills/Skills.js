@@ -12,7 +12,9 @@ export const Skills = () => {
                 <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
                     <Caption subtitle={'Skill'}
                              title={'Why Choose Me'}
-                             description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo orci odio, ut tor felisdapibus sed. Phasellus vitae ullamcorper purus.'}
+                             description={'I create successful responsive websites and apps that are fast, easy to use, and built with best practices. ' +
+                                 'The main area of my expertise is front-end development, HTML, CSS, JS, React, Redux building small and medium web apps, custom plugins, features, animations, ' +
+                                 'and coding interactive layouts.'}
                     />
                     <div className={styles.skills}>
                         <Skill title={'HTML'} percent={'90%'}/>
