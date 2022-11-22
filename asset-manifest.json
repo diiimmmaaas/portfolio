@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bbf3e31a.css",
-    "main.js": "/portfolio/static/js/main.7e8cd371.js",
+    "main.css": "/portfolio/static/css/main.a896e786.css",
+    "main.js": "/portfolio/static/js/main.1f365cd6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.2da6e503cd8c0bd0fd73.jpg",
     "static/media/todo.png": "/portfolio/static/media/todo.a9b094b1ebe3bbe22e76.png",
@@ -11,12 +11,12 @@
     "static/media/learn-by-cards.jpg": "/portfolio/static/media/learn-by-cards.65de8f7298d678fac0c0.jpg",
     "static/media/calculator.jpg": "/portfolio/static/media/calculator.ee9761d2cefea49a67b9.jpg",
     "index.html": "/portfolio/index.html",
-    "main.bbf3e31a.css.map": "/portfolio/static/css/main.bbf3e31a.css.map",
-    "main.7e8cd371.js.map": "/portfolio/static/js/main.7e8cd371.js.map",
+    "main.a896e786.css.map": "/portfolio/static/css/main.a896e786.css.map",
+    "main.1f365cd6.js.map": "/portfolio/static/js/main.1f365cd6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbf3e31a.css",
-    "static/js/main.7e8cd371.js"
+    "static/css/main.a896e786.css",
+    "static/js/main.1f365cd6.js"
   ]
 }
