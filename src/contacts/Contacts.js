@@ -27,9 +27,9 @@ export const Contacts = () => {
                                 <div className={styles.form}>
                                     <Formik
                                         initialValues={{
-                                            name: "Enter your name",
-                                            email: "Enter your email",
-                                            text: "Enter your message"
+                                            name: "",
+                                            email: "",
+                                            text: ""
                                         }}
                                         validate={values => {
                                             const errors = {};
@@ -77,6 +77,7 @@ export const Contacts = () => {
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     value={values.name}
+                                                    placeholder={'Enter your name'}
                                                 />
                                                 {errors.name && touched.name && <div className={styles.error} style={{color: "white"}}>{errors.name}</div>}
                                                 <input
@@ -85,9 +86,12 @@ export const Contacts = () => {
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     value={values.email}
+                                                    placeholder={'Enter your email'}
                                                 />
                                                 {errors.email && touched.email && <div className={styles.error} style={{color: "white"}}>{errors.email}</div>}
                                                 <textarea name="text"
+                                                          placeholder={'Enter your' +
+                                                              ' message'}
                                                           onChange={handleChange}
                                                           onBlur={handleBlur}
                                                           value={values.text}></textarea>
@@ -99,20 +103,11 @@ export const Contacts = () => {
                                             </form>
                                         )}
                                     </Formik>
-
-                                    {/*<form action="">*/}
-                                    {/*    <input type="text" value="name"/>*/}
-                                    {/*    <input type="email" value="e-mail"/>*/}
-                                    {/*    <textarea value="Message"></textarea>*/}
-                                    {/*    <button type="submit" className={`${stylesBtn.btn} ${styles.btn}`} onClick={onSubmit}>*/}
-                                    {/*        send message*/}
-                                    {/*    </button>*/}
-                                    {/*</form>*/}
                                 </div>
                             </div>
                             <div className={styles.rightContent}>
                                 <ContactInfo title={"Location"}
-                                             description={"231300, Lida, Belarus."}/>
+                                             description={"220004, Minsk, Belarus."}/>
                                 <ContactInfo title={"Phone number"}
                                              description={"8(029) 7618499"}/>
                                 <ContactInfo title={"Email Address"}
